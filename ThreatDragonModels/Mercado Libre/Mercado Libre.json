@@ -1,0 +1,37 @@
+{
+  "version": "2.3.0-RC2",
+  "summary": {
+    "title": "Mercado Libre",
+    "owner": "Eduardo Carrera Colorado, Luis Manuel Casas Vázquez, Aneth Michelle Tamariz Moreno",
+    "description": "Mercado Libre es una plataforma de comercio en línea que permite a los usuarios buscar, consultar y adquirir productos de diversas categorías. Los clientes pueden registrarse, agregar productos a un carrito de compras y completar el proceso de pago de manera segura. Los administradores tienen la capacidad de publicar nuevos productos, actualizar descripciones, precios y clasificarlos en categorías personalizables.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Eduardo Carrera Colorado"
+      },
+      {
+        "name": "Luis Manuel Casas Vázquez"
+      },
+      {
+        "name": "Aneth Michelle Tamariz Moreno"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "Diagrama de flujo de datos para sistema Mercado Libre",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0-RC2",
+        "cells": [],
+        "description": "El diagrama STRIDE para el sistema de Mercado Libre identifica posibles amenazas de seguridad"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Guillermo Vera",
+    "threatTop": 0
+  }
+}

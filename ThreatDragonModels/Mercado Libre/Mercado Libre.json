@@ -1097,7 +1097,7 @@
       },
       {
         "id": 1,
-        "title": "Diagrama de flujo de datos para inicio de sesión de Mercado Libre",
+        "title": "Diagrama de flujo de datos de inicio de sesión para el sitio web de Mercado Libre",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",

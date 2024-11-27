@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0-RC2",
+  "version": "2.3.0-RC3",
   "summary": {
     "title": "Mercado Libre",
     "owner": "Eduardo Carrera Colorado, Luis Manuel Casas Vázquez, Aneth Michelle Tamariz Moreno",
@@ -1094,9 +1094,19 @@
           }
         ],
         "description": "El diagrama STRIDE para el sistema de Mercado Libre identifica posibles amenazas de seguridad"
+      },
+      {
+        "id": 1,
+        "title": "Diagrama de flujo de datos para inicio de sesión de Mercado Libre",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.3.0-RC3",
+        "cells": [],
+        "description": "El diagrama STRIDE para el sistema de Mercado Libre identifica posibles amenazas de seguridad en el proceso de inicio de sesión"
       }
     ],
-    "diagramTop": 1,
+    "diagramTop": 2,
     "reviewer": "Guillermo Vera",
     "threatTop": 11
   }

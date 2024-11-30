@@ -2738,7 +2738,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Proceso de login"
+                "text": "Proceso de crear cuenta"
               },
               "body": {
                 "stroke": "red",
@@ -2834,7 +2834,7 @@
             "id": "96d6174c-fb9c-4a5f-947c-7ba3e331642f",
             "data": {
               "type": "tm.Process",
-              "name": "Proceso de login",
+              "name": "Proceso de crear cuenta",
               "description": "Procedimiento que recibe las peticiones del usuario para iniciar la sesión.",
               "outOfScope": false,
               "reasonOutOfScope": "",

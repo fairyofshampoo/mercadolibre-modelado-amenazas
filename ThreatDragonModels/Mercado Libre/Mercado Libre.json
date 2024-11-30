@@ -3046,7 +3046,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Autenticar Usuario \nResultado SQL Query",
+              "name": "Crear Usuario \nResultado SQL Query",
               "description": "Datos recuperados desde la base de datos.",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3077,7 +3077,7 @@
               }
             },
             "labels": [
-              "Autenticar Usuario \nResultado SQL Query"
+              "Crear Usuario \nResultado SQL Query"
             ],
             "id": "92921257-271b-40bb-9e62-1eb5b7aa1957",
             "source": {
@@ -3115,7 +3115,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Autenticar Usuario \nSQL Query",
+              "name": "Crear Usuario \nSQL Query",
               "description": "Instrucciones de SQL enviadas hacia la base de datos.",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3146,7 +3146,7 @@
               }
             },
             "labels": [
-              "Autenticar Usuario \nSQL Query"
+              "Crear Usuario \nSQL Query"
             ],
             "id": "83643bea-59c2-4fd8-bd83-9fd829e314f6",
             "source": {

@@ -2188,6 +2188,126 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "UsuarioAutenticado()",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "8c01aee9-1f80-4d50-9b9d-93c5e2d91a36",
+                  "title": "Inyección de código",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Un atacante podría enviar una entrada inyectando código malicioso para intentar obtener privilegios.",
+                  "mitigation": "1. Se aplican verificaciones de tipo, formato, longitud y rango de datos. \n2. Todos los datos enviados desde el cliente se validan. \n3. Ninguna decisión de seguridad se basa en parámetros (por ejemplo, parámetros de URL) que se pueden manipular. \n4. Filtrado de entrada mediante validación de lista de permitidos. \n5. Se utiliza codificación de salida ",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "UsuarioAutenticado()"
+            ],
+            "id": "f385a6d4-c617-4f65-a10b-f3cd190c0034",
+            "source": {
+              "x": 360,
+              "y": 590
+            },
+            "target": {
+              "cell": "96d6174c-fb9c-4a5f-947c-7ba3e331642f",
+              "port": "c353db01-770f-4124-92f4-37690fb5d29a"
+            },
+            "vertices": [
+              {
+                "x": 250,
+                "y": 690
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": "4 3"
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "UsuarioAutenticado\nResultado",
+              "description": "",
+              "outOfScope": true,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "UsuarioAutenticado\nResultado"
+            ],
+            "id": "8ecafa3b-f91f-498b-a90e-0a19b6856694",
+            "source": {
+              "cell": "96d6174c-fb9c-4a5f-947c-7ba3e331642f",
+              "port": "65e89824-2c37-4acc-aba9-bcb463f78cd3"
+            },
+            "target": {
+              "cell": "947cf987-9caf-437f-a134-53995b6f2655",
+              "port": "9df994db-bc47-4058-8385-fe5dca45aadd"
+            },
+            "vertices": [
+              {
+                "x": 450,
+                "y": 690
+              }
+            ]
+          },
+          {
             "position": {
               "x": 292.5,
               "y": 460
@@ -2208,6 +2328,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -2291,7 +2412,6 @@
               ]
             },
             "id": "947cf987-9caf-437f-a134-53995b6f2655",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "Controlador Web",
@@ -2334,6 +2454,6 @@
     ],
     "diagramTop": 2,
     "reviewer": "Guillermo Vera",
-    "threatTop": 14
+    "threatTop": 15
   }
 }

@@ -3564,7 +3564,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "UsuarioAutenticado()",
+              "name": "NuevoUsuario()",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -3595,7 +3595,7 @@
               }
             },
             "labels": [
-              "UsuarioAutenticado()"
+              "NuevoUsuario()"
             ],
             "id": "f385a6d4-c617-4f65-a10b-f3cd190c0034",
             "source": {
@@ -3633,7 +3633,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "UsuarioAutenticado\nResultado",
+              "name": "NuevoUsuario\nResultado",
               "description": "",
               "outOfScope": true,
               "reasonOutOfScope": "",
@@ -3645,7 +3645,7 @@
               "threats": []
             },
             "labels": [
-              "UsuarioAutenticado\nResultado"
+              "NuevoUsuario\nResultado"
             ],
             "id": "8ecafa3b-f91f-498b-a90e-0a19b6856694",
             "source": {
